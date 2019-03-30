@@ -197,11 +197,39 @@
                     </li>
                     <li class="dropdown">
                         <a class="sa-side-page" href="">
+                            <span class="menu-item">客户信息管理</span>
+                        </a>
+                        <ul class="list-unstyled menu-item">
+                            <li><a href="user">客户信息添加</a></li>
+                            <li><a href="table">客户信息展示</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="sa-side-page" href="">
                             <span class="menu-item">联系人信息管理</span>
                         </a>
                         <ul class="list-unstyled menu-item">
-                            <li><a href="user">添加</a></li>
-                            <li><a href="table">列表展示</a></li>
+                            <li><a href="user">新建联系人</a></li>
+                            <li><a href="table">练习人管理</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="sa-side-page" href="">
+                            <span class="menu-item">客户服务信息管理</span>
+                        </a>
+                        <ul class="list-unstyled menu-item">
+                            <li><a href="user">客户服务信息添加</a></li>
+                            <li><a href="table">日常安排管理</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="sa-side-page" href="">
+                            <span class="menu-item">综合查询</span>
+                        </a>
+                        <ul class="list-unstyled menu-item">
+                            <li><a href="user">客户信息查询</a></li>
+                            <li><a href="table">联系人信息查询</a></li>
+                            <li><a href="table">服务信息查询</a></li>
                         </ul>
                     </li>
                 </ul>

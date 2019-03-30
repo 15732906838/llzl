@@ -15,9 +15,10 @@ class UserController extends Controller
     public function index(){
         return view('index/index');
     }
-
-    //联系人信息管理
+    //联系人信息管理 添加
     public function user(){
+
+
         return view('index/user');
     }
     //展示
