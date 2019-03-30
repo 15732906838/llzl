@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Customer;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
+use Illuminate\Support\Facades\DB;
 class CustomerController extends Controller
 {
     /**
@@ -16,26 +16,23 @@ class CustomerController extends Controller
     {
         return view('customer.customeradd');
     }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function dataadd(Request $request)
     {
-        //
+       $data = $request->all();
+       if($data??""){
+           $res = DB::table('customerservice')->insert($data);
+           if($res){
+               echo 1;
+           }else{
+                echo 2;
+           }
+       }
     }
 
     /**
@@ -44,9 +41,9 @@ class CustomerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
-        //
+    public function customerlist()
+    {   $res = DB::table('customerservice')->get();
+        return view('customer.customerlist',['res'=>$res]);
     }
 
     /**
@@ -55,9 +52,13 @@ class CustomerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function del(Request $request)
     {
-        //
+        $u_id = $request-> input();
+        $where = [
+            'u_id'=>$u_id
+        ];
+        $res = DB::table('customerservice')->where($where)->delete();
     }
 
     /**

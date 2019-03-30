@@ -22,10 +22,14 @@ Route::get('index','UserController@index');
 Route::get('user','UserController@user');
 //展示
 Route::get('table','UserController@table');
+//客户服务信息
+Route::get('customeradd','Customer\CustomerController@index');
 //客户服务信息添加
-Route::get('customeradd','CustomerController@index');
-
-
+Route::post('dataadd','Customer\CustomerController@dataadd');
+//日程服务安排
+Route::get('customerlist','Customer\CustomerController@customerlist');
+//删除
+Route::get('del','Customer\CustomerController@del');
 
 
 

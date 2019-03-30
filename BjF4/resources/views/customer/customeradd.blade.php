@@ -21,6 +21,10 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/icons.css" rel="stylesheet">
     <link href="css/generics.css" rel="stylesheet">
+    <link href="layui/css/layui.css" rel="stylesheet">
+    <script src="layui/layui.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <!-- <script src="layui/js/laydate.js"></script> -->
 </head>
 <body id="skin-blur-violate">
 <header id="header" class="media">
@@ -412,29 +416,30 @@
         <div class="block-area" id="text-input">
             <h3 class="block-title">Text Input</h3>
 
-            <p>Text Inputs with different sizes by height and column.</p>
+            <p>You are the one biu.</p>
 
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务类型">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="客户名称">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="联系人">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务预估成本">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务内容描述">
-            <p></p>
-            <p>Input focus</p>
-            <p></p>
-            <p>Disabled</p>
+            <input class="form-control input-lg m-b-10" type="text" name="service_type"  id="service_type" placeholder="服务类型">
+            <input class="form-control input-lg m-b-10" type="text" name="service_time" id="service_time"  placeholder="服务日期">
+            <input class="form-control input-lg m-b-10" type="text" name="customer"  id="customer" placeholder="客户名称">
+            <input class="form-control input-lg m-b-10" type="text" name="username" id="username" placeholder="联系人">
+            <input class="form-control input-lg m-b-10" type="text" name="service_price" id="service_price" placeholder="服务预估成本">
         </div>
 
         <hr class="whiter m-t-20" />
 
         <!-- Textarea -->
         <div class="block-area" id="textarea">
-            <h3 class="block-title">Textarea</h3>
+            <h3 class="block-title">服务描述</h3>
 
-            <p>Form control which supports multiple lines of text. Change 'rows' attribute as necessary.</p>
-            <textarea class="form-control overflow" rows="3" placeholder="This is a default Textarea..."></textarea>
-
-            <p></p>
+           
+            <textarea class="form-control overflow" rows="3" placeholder="" name="service_desc" id="service_desc">
+           
+            </textarea>
+            <hr class="whiter m-t-20" />
+            <h3 class="block-title">客户反馈意见</h3>
+            <textarea class="form-control overflow" rows="3" placeholder="" name="service_opinion" id="service_opinion">
+                    
+            </textarea>
         </div>
 
         <hr class="whiter m-t-20" />
@@ -442,111 +447,18 @@
         <!-- Select -->
         <div class="block-area" id="select">
             <h3 class="block-title">Select</h3>
-            <p>Use Grid classes to adjust column sizes</p>
-
-            <select class="form-control input-lg m-b-10">
+            <select class="form-control input-lg m-b-10" name="service_ok" id="service_ok">
                 <option>客户满意度</option>
-                <option>客户满意度</option>
-                <option>客户满意度</option>
+                <option  value="1">1</option>
+                <option  value="2">2</option>
+                <option  value="3">3</option>
             </select>
 
-
+        <input type="button" value="添加" id="btn">
         </div>
-
-        <hr class="whiter m-t-20" />
-
-        <!-- Checkbox + Radio-->
-        <!-- <div class="block-area" id="check">
-            <h3 class="block-title">Checkbox + Radio</h3>
-            <p>Default Checkbox</p>
-
-            <div class="checkbox m-b-5">
-                <label>
-                    <input type="checkbox" checked>
-                    This is an awesome sample Checkbox
-                </label>
-            </div>
-
-            <div class="clearfix"></div>
-
-
-            <div class="clearfix"></div>
-
-            <div class="checkbox m-b-5">
-                <label>
-                    <input type="checkbox">
-                    One more awesome sample Checkbox
-                </label>
-            </div>
-
-            <br/>
-
-            <p>Inline Checkboxes</p>
-            <label class="checkbox-inline">
-                <input type="checkbox">
-                1
-            </label>
-
-            <label class="checkbox-inline">
-                <input type="checkbox">
-                2
-            </label>
-
-            <label class="checkbox-inline">
-                <input type="checkbox">
-                3
-            </label>
-
-            <p class="m-t-20">Radio</p>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="radio">
-                    Option one is this and that&mdash;be sure to include why it's great
-                </label>
-            </div>
-
-            <div class="radio">
-                <label>
-                    <input type="radio" name="radio">
-                    Option one is this and that&mdash;be sure to include why it's great
-                </label>
-            </div>
-
-            <div class="clearfix"></div>
-
-            <p class="m-t-20">Disabled</p>
-            <div class="radio">
-                <label>
-                    <input type="radio" checked disabled>
-                    This Radio is checked and disabled
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" disabled>
-                    This Radio is not checked and disabled
-                </label>
-            </div>
-
-            <div class="checkbox m-t-10 m-b-5">
-                <label>
-                    <input type="checkbox" checked disabled>
-                    This is an awesome sample Checkbox checked and disabled
-                </label>
-            </div>
-
-            <div class="checkbox">
-                <label class="m-t-10">
-                    <input type="checkbox" disabled>
-                    This is too disabled
-                </label>
-            </div>
-
-            <br/><br/><br/>
-        </div>   -->
     </section>
 </section>
-
+   
 <!-- Javascript Libraries -->
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script> <!-- jQuery Library -->
@@ -570,4 +482,38 @@
 <script src="js/functions.js"></script>
 </body>
 </html>
+<script>
+    $(function(){
+        layui.use('layer',function(){
+            var layer = layui.layer;
+            // var laydate = layui.laydate;
+            // laydate.render({
+            //      elem: '#service_time' //指定元素
+            // });
+
+
+            $('#btn').click(function(){
+                var service_type = $('#service_type').val();
+                var service_time =$('#service_time').val();
+                var customer = $('#customer').val();
+                var username =$('#username').val();
+                var service_price = $('#service_price').val();
+                var service_desc =$('#service_desc').val();
+                var service_opinion =$('#service_opinion').val();
+                var service_ok =$('#service_ok').val();
+                $.post(
+                    'dataadd',
+                    {service_type:service_type,service_time:service_time,customer:customer,username:username,service_price:service_price,service_desc:service_desc,service_opinion:service_opinion,service_ok:service_ok},
+                    function(res){
+                      if(res ==1){
+                        layer.msg('添加成功',{icon:1});
+                      }else{
+                        layer.msg('添加失败',{icon:2});
+                      }
+                    }
+                );
+            })
+        });
+    })
+</script>
 
