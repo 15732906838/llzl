@@ -410,15 +410,21 @@
 
         <!-- Text Input -->
         <div class="block-area" id="text-input">
-            <h3 class="block-title">Text Input</h3>
+            <h3>新建联系人</h3>
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="客户单位">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="联系人职位">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="姓名">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="性别">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="生日">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="联系方式">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="家庭邮编">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="工作电话">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="家庭电话">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="手机">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="邮箱">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="qq号码">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="备注">
 
-            <p>Text Inputs with different sizes by height and column.</p>
-
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务类型">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="客户名称">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="联系人">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务预估成本">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务内容描述">
             <p></p>
             <p>Input focus</p>
             <p></p>
@@ -429,9 +435,6 @@
 
         <!-- Textarea -->
         <div class="block-area" id="textarea">
-            <h3 class="block-title">Textarea</h3>
-
-            <p>Form control which supports multiple lines of text. Change 'rows' attribute as necessary.</p>
             <textarea class="form-control overflow" rows="3" placeholder="This is a default Textarea..."></textarea>
 
             <p></p>
@@ -443,14 +446,6 @@
         <div class="block-area" id="select">
             <h3 class="block-title">Select</h3>
             <p>Use Grid classes to adjust column sizes</p>
-
-            <select class="form-control input-lg m-b-10">
-                <option>客户满意度</option>
-                <option>客户满意度</option>
-                <option>客户满意度</option>
-            </select>
-
-
         </div>
         <hr class="whiter m-t-20" />
     </section>
