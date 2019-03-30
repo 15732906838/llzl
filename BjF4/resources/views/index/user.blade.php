@@ -13,14 +13,14 @@
     <title>Super Admin Responsive Template</title>
 
     <!-- CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/animate.min.css" rel="stylesheet">
-    <link href="/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/css/form.css" rel="stylesheet">
-    <link href="/css/calendar.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
-    <link href="/css/icons.css" rel="stylesheet">
-    <link href="/css/generics.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/calendar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet">
+    <link href="css/generics.css" rel="stylesheet">
 </head>
 <body id="skin-blur-violate">
 <header id="header" class="media">
@@ -73,7 +73,7 @@
             <!-- Profile Menu -->
             <div class="text-center s-widget m-b-25 dropdown" id="profile-menu">
                 <a href="" data-toggle="dropdown">
-                    <img class="profile-pic animated" src="/img/profile-pic.jpg" alt="">
+                    <img class="profile-pic animated" src="img/profile-pic.jpg" alt="">
                 </a>
                 <ul class="dropdown-menu profile-menu">
                     <li><a href="">My Profile</a> <i class="icon left">&#61903;</i><i class="icon right">&#61815;</i></li>
@@ -244,7 +244,7 @@
                 <div class="overflow" style="height: 254px">
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/1.jpg" alt="">
+                            <img width="40" src="img/profile-pics/1.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Nadin Jackson - 2 Hours ago</small><br>
@@ -253,7 +253,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/2.jpg" alt="">
+                            <img width="40" src="img/profile-pics/2.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">David Villa - 5 Hours ago</small><br>
@@ -262,7 +262,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/3.jpg" alt="">
+                            <img width="40" src="img/profile-pics/3.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Harris worgon - On 15/12/2013</small><br>
@@ -271,7 +271,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/4.jpg" alt="">
+                            <img width="40" src="img/profile-pics/4.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Mitch Bradberry - On 14/12/2013</small><br>
@@ -280,7 +280,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/1.jpg" alt="">
+                            <img width="40" src="img/profile-pics/1.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Nadin Jackson - On 15/12/2013</small><br>
@@ -289,7 +289,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/2.jpg" alt="">
+                            <img width="40" src="img/profile-pics/2.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">David Villa - On 16/12/2013</small><br>
@@ -298,7 +298,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/3.jpg" alt="">
+                            <img width="40" src="img/profile-pics/3.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Harris worgon - On 17/12/2013</small><br>
@@ -307,7 +307,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/4.jpg" alt="">
+                            <img width="40" src="img/profile-pics/4.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Mitch Bradberry - On 18/12/2013</small><br>
@@ -316,7 +316,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/5.jpg" alt="">
+                            <img width="40" src="img/profile-pics/5.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Wendy Mitchell - On 19/12/2013</small><br>
@@ -340,7 +340,7 @@
                 <div class="overflow" style="height: 254px">
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/1.jpg" alt="">
+                            <img width="40" src="img/profile-pics/1.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Nadin Jackson - 2 Hours ago</small><br>
@@ -349,7 +349,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/2.jpg" alt="">
+                            <img width="40" src="img/profile-pics/2.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">David Villa - 5 Hours ago</small><br>
@@ -358,7 +358,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/3.jpg" alt="">
+                            <img width="40" src="img/profile-pics/3.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Harris worgon - On 15/12/2013</small><br>
@@ -367,7 +367,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/4.jpg" alt="">
+                            <img width="40" src="img/profile-pics/4.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Mitch Bradberry - On 14/12/2013</small><br>
@@ -376,7 +376,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/1.jpg" alt="">
+                            <img width="40" src="img/profile-pics/1.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Nadin Jackson - On 15/12/2013</small><br>
@@ -385,7 +385,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="/img/profile-pics/2.jpg" alt="">
+                            <img width="40" src="img/profile-pics/2.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">David Villa - On 16/12/2013</small><br>
@@ -413,20 +413,12 @@
             <h3 class="block-title">Text Input</h3>
 
             <p>Text Inputs with different sizes by height and column.</p>
-            <input class="form-control input-lg m-b-10" type="text" name="user_id" value="刘铭昊" placeholder="销售员">
 
-            <input class="form-control input-lg m-b-10" type="text" name="client_name" placeholder="客户名称">
-            <input class="form-control input-lg m-b-10" type="text" name="client_num" placeholder="客户编码">
-            <input class="form-control input-lg m-b-10" type="text" name="client_tel" placeholder="电话">
-            <input class="form-control input-lg m-b-10" type="text" name="client_url" placeholder="网址">
-            <input class="form-control input-lg m-b-10" type="text" name="client_email" placeholder="服务内容描述">
-            <input class="form-control input-lg m-b-10" type="text" name="client_email" placeholder="服务内容描述">
-            <select class="form-control input-lg m-b-10" name="client_area">
-                <option>华东</option>
-                <option>华南</option>
-                <option>东北</option>
-            </select>
-            
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务类型">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="客户名称">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="联系人">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务预估成本">
+            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务内容描述">
             <p></p>
             <p>Input focus</p>
             <p></p>
@@ -557,25 +549,25 @@
 
 <!-- Javascript Libraries -->
 <!-- jQuery -->
-<script src="/js/jquery.min.js"></script> <!-- jQuery Library -->
+<script src="js/jquery.min.js"></script> <!-- jQuery Library -->
 
 <!-- Bootstrap -->
-<script src="/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <!--  Form Related -->
-<script src="/js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
-<script src="/js/autosize.min.js"></script> <!-- Textarea autosize -->
+<script src="js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+<script src="js/autosize.min.js"></script> <!-- Textarea autosize -->
 
 <!-- UX -->
-<script src="/js/scroll.min.js"></script> <!-- Custom Scrollbar -->
+<script src="js/scroll.min.js"></script> <!-- Custom Scrollbar -->
 
 <!-- Other -->
-<script src="/js/calendar.min.js"></script> <!-- Calendar -->
-<script src="/js/feeds.min.js"></script> <!-- News Feeds -->
+<script src="js/calendar.min.js"></script> <!-- Calendar -->
+<script src="js/feeds.min.js"></script> <!-- News Feeds -->
 
 
 <!-- All JS functions -->
-<script src="/js/functions.js"></script>
+<script src="js/functions.js"></script>
 </body>
 </html>
 
