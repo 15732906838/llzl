@@ -159,25 +159,9 @@
                     <span class="menu-item">Dashboard</span>
                 </a>
             </li>
-            <li>
-                <a class="sa-side-typography" href="typography.html">
-                    <span class="menu-item">Typography</span>
-                </a>
-            </li>
-            <li>
-                <a class="sa-side-widget" href="content-widgets.html">
-                    <span class="menu-item">Widgets</span>
-                </a>
-            </li>
-            <li>
-                <a class="sa-side-table" href="tables.html">
-                    <span class="menu-item">Tables</span>
-                </a>
-            </li>
+
+
             <li class="dropdown active">
-                <a class="sa-side-form" href="">
-                    <span class="menu-item">Form</span>
-                </a>
                 <ul class="list-unstyled menu-item">
                     <li><a class="active" href="form-elements.html">Basic Form Elements</a></li>
                     <li><a href="form-components.html">Form Components</a></li>
@@ -199,21 +183,7 @@
                     <li><a href="other-components.html">Others</a></li>
                 </ul>
             </li>
-            <li>
-                <a class="sa-side-chart" href="charts.html">
-                    <span class="menu-item">Charts</span>
-                </a>
-            </li>
-            <li>
-                <a class="sa-side-folder" href="file-manager.html">
-                    <span class="menu-item">File Manager</span>
-                </a>
-            </li>
-            <li>
-                <a class="sa-side-calendar" href="calendar.html">
-                    <span class="menu-item">Calendar</span>
-                </a>
-            </li>
+
             <li class="dropdown">
                 <a class="sa-side-page" href="">
                     <span class="menu-item">Pages</span>
@@ -407,144 +377,28 @@
         </ol>
 
         <h4 class="page-title">BASIC FORM ELEMENTS</h4>
-
+        <form action="useradddo" method="post">
         <!-- Text Input -->
         <div class="block-area" id="text-input">
-            <h3 class="block-title">Text Input</h3>
-
-            <p>Text Inputs with different sizes by height and column.</p>
-
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务类型">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="客户名称">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="联系人">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务预估成本">
-            <input class="form-control input-lg m-b-10" type="text" name="" placeholder="服务内容描述">
-            <p></p>
-            <p>Input focus</p>
-            <p></p>
-            <p>Disabled</p>
+            <h3>新建联系人</h3>         <button>提价</button>
+            <input class="form-control input-lg m-b-10" type="text" name="company" placeholder="客户单位">
+            <input class="form-control input-lg m-b-10" type="text" name="contact_title" placeholder="联系人职位">
+            <input class="form-control input-lg m-b-10" type="text" name="name" placeholder="姓名">
+            <input class="form-control input-lg m-b-10" type="radio" name="sex" placeholder="性别" value="1">男
+            <input class="form-control input-lg m-b-10" type="radio" name="sex" placeholder="性别" value="2">女
+            <input class="form-control input-lg m-b-10" type="text" name="birthday" placeholder="生日">
+            <input class="form-control input-lg m-b-10" type="text" name="hobby" placeholder="爱好">
+            <input class="form-control input-lg m-b-10" type="text" name="contact" placeholder="联系方式">
+            <input class="form-control input-lg m-b-10" type="text" name="family" placeholder="家庭邮编">
+            <input class="form-control input-lg m-b-10" type="text" name="work_phone" placeholder="工作电话">
+            <input class="form-control input-lg m-b-10" type="text" name="hmobile_phone" placeholder="手机">
+            <input class="form-control input-lg m-b-10" type="text" name="email" placeholder="邮箱">
+            <input class="form-control input-lg m-b-10" type="text" name="qq_phone" placeholder="qq号码">
+            <input class="form-control input-lg m-b-10" type="text" name="remarks" placeholder="备注">
         </div>
 
-        <hr class="whiter m-t-20" />
-
-        <!-- Textarea -->
-        <div class="block-area" id="textarea">
-            <h3 class="block-title">Textarea</h3>
-
-            <p>Form control which supports multiple lines of text. Change 'rows' attribute as necessary.</p>
-            <textarea class="form-control overflow" rows="3" placeholder="This is a default Textarea..."></textarea>
-
-            <p></p>
-        </div>
-
-        <hr class="whiter m-t-20" />
-
-        <!-- Select -->
-        <div class="block-area" id="select">
-            <h3 class="block-title">Select</h3>
-            <p>Use Grid classes to adjust column sizes</p>
-
-            <select class="form-control input-lg m-b-10">
-                <option>客户满意度</option>
-                <option>客户满意度</option>
-                <option>客户满意度</option>
-            </select>
-
-
-        </div>
-
-        <hr class="whiter m-t-20" />
-
-        <!-- Checkbox + Radio-->
-        <!-- <div class="block-area" id="check">
-            <h3 class="block-title">Checkbox + Radio</h3>
-            <p>Default Checkbox</p>
-
-            <div class="checkbox m-b-5">
-                <label>
-                    <input type="checkbox" checked>
-                    This is an awesome sample Checkbox
-                </label>
-            </div>
-
-            <div class="clearfix"></div>
-
-
-            <div class="clearfix"></div>
-
-            <div class="checkbox m-b-5">
-                <label>
-                    <input type="checkbox">
-                    One more awesome sample Checkbox
-                </label>
-            </div>
-
-            <br/>
-
-            <p>Inline Checkboxes</p>
-            <label class="checkbox-inline">
-                <input type="checkbox">
-                1
-            </label>
-
-            <label class="checkbox-inline">
-                <input type="checkbox">
-                2
-            </label>
-
-            <label class="checkbox-inline">
-                <input type="checkbox">
-                3
-            </label>
-
-            <p class="m-t-20">Radio</p>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="radio">
-                    Option one is this and that&mdash;be sure to include why it's great
-                </label>
-            </div>
-
-            <div class="radio">
-                <label>
-                    <input type="radio" name="radio">
-                    Option one is this and that&mdash;be sure to include why it's great
-                </label>
-            </div>
-
-            <div class="clearfix"></div>
-
-            <p class="m-t-20">Disabled</p>
-            <div class="radio">
-                <label>
-                    <input type="radio" checked disabled>
-                    This Radio is checked and disabled
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" disabled>
-                    This Radio is not checked and disabled
-                </label>
-            </div>
-
-            <div class="checkbox m-t-10 m-b-5">
-                <label>
-                    <input type="checkbox" checked disabled>
-                    This is an awesome sample Checkbox checked and disabled
-                </label>
-            </div>
-
-            <div class="checkbox">
-                <label class="m-t-10">
-                    <input type="checkbox" disabled>
-                    This is too disabled
-                </label>
-            </div>
-
-            <br/><br/><br/>
-        </div>   -->
     </section>
+    </form>
 </section>
 
 <!-- Javascript Libraries -->
@@ -567,7 +421,17 @@
 
 
 <!-- All JS functions -->
+<script src="layui/layui.js"></script>
 <script src="js/functions.js"></script>
 </body>
 </html>
+<script>
+    $(function(){
+        layui.use('layer', function () {
+            var layer=layui.layer;
+
+
+        })
+    })
+</script>
 
