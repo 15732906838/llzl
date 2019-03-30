@@ -251,61 +251,33 @@
                 <table class="tile table table-bordered table-striped">
                     <thead>
                     <tr>
-                        <th>No.</th>
-                        <th>服务类型</th>
-                        <th>Last Name</th>
-                        <th>Username</th>
+                        <th>选择</th>
+                        <th>客户名称</th>
+                        <th>客户类别</th>
+                        <th>地区</th>
+                        <th>销售方式</th>
+                        <th>电话</th>
+                        <th>电子邮件</th>
+                        <th>销售员</th>
+                        <th>记录时间</th>
+                        <th>操作</th>
                     </tr>
                     </thead>
                     <tbody>
+                    @foreach($data as $k=>$v)
                     <tr>
-                        <td>1</td>
-                        <td>服务类型 </td>
-                        <td>Makinton </td>
-                        <td>@makinton</td>
+                        <td><input type="checkbox"></td>
+                        <td>{{$v->client_name}}</td>
+                        <td>{{$v->client_type}} </td>
+                        <td>{{$v->client_area}}</td>
+                        <td>{{$v->client_market}} </td>
+                        <td>{{$v->client_tel}} </td>
+                        <td>{{$v->client_email}}</td>
+                        <td>{{$v->user_id}} </td>
+                        <td>{{$v->create_time}}</td>
+                        <td><a href="/client/del/{{$v->client_id}}">删除</a></td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>服务类型</td>
-                        <td>Hollaway</td>
-                        <td>@hollway</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>服务类型</td>
-                        <td>Parnel</td>
-                        <td>@wayne123</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>T服务类型</td>
-                        <td>05/04/2012</td>
-                        <td>Call in to confirm</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>服务类型</td>
-                        <td>06/04/2012</td>
-                        <td>Pending</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>T服务类型y</td>
-                        <td>07/04/2012</td>
-                        <td>Call in to confirm</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>T服务类型</td>
-                        <td>08/04/2012</td>
-                        <td>Call in to confirm</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>T服务类型y</td>
-                        <td>09/04/2012</td>
-                        <td>Call in to confirm</td>
-                    </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>

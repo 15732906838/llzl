@@ -26,6 +26,10 @@ Route::get('table','UserController@table');
 //客户信息管理
 Route::get('/client/clientadd','ClientController@clientAdd');
 Route::get('/client/clientlist','ClientController@clientList');
+Route::post('/client/clientadddo','ClientController@clientadddo');
+Route::get('/client/del/{id}','ClientController@del');
+
+
 
 
 

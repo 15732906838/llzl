@@ -412,21 +412,22 @@
         <div class="block-area" id="text-input">
             <h3 class="block-title">Text Input</h3>
 
-            <p>Text Inputs with different sizes by height and column.</p>
-            <input class="form-control input-lg m-b-10" type="text" name="user_id" value="刘铭昊" placeholder="销售员">
+            <p>基本信息</p>
+            <form action="/client/clientadddo" method="post">
 
+            <input class="form-control input-lg m-b-10" type="text" name="user_id" value="刘铭昊" placeholder="销售员">
             <input class="form-control input-lg m-b-10" type="text" name="client_name" placeholder="客户名称">
             <input class="form-control input-lg m-b-10" type="text" name="client_num" placeholder="客户编码">
             <input class="form-control input-lg m-b-10" type="text" name="client_tel" placeholder="电话">
             <input class="form-control input-lg m-b-10" type="text" name="client_url" placeholder="网址">
-            <input class="form-control input-lg m-b-10" type="text" name="client_email" placeholder="服务内容描述">
-            <input class="form-control input-lg m-b-10" type="text" name="client_email" placeholder="服务内容描述">
+            <input class="form-control input-lg m-b-10" type="text" name="client_email" placeholder="电子邮件">
+            <input class="form-control input-lg m-b-10" type="text" name="client_coding" placeholder="邮政编码">
             <select class="form-control input-lg m-b-10" name="client_area">
                 <option>华东</option>
                 <option>华南</option>
                 <option>东北</option>
             </select>
-            
+            <input class="form-control input-lg m-b-10" type="text" name="client_desc" placeholder="详细地址">
             <p></p>
             <p>Input focus</p>
             <p></p>
@@ -437,30 +438,42 @@
 
         <!-- Textarea -->
         <div class="block-area" id="textarea">
-            <h3 class="block-title">Textarea</h3>
-
-            <p>Form control which supports multiple lines of text. Change 'rows' attribute as necessary.</p>
-            <textarea class="form-control overflow" rows="3" placeholder="This is a default Textarea..."></textarea>
-
-            <p></p>
-        </div>
-
-        <hr class="whiter m-t-20" />
-
-        <!-- Select -->
-        <div class="block-area" id="select">
-            <h3 class="block-title">Select</h3>
-            <p>Use Grid classes to adjust column sizes</p>
-
-            <select class="form-control input-lg m-b-10">
-                <option>客户满意度</option>
-                <option>客户满意度</option>
-                <option>客户满意度</option>
+            <h3 class="block-title">客户类型</h3>
+            <p>客户来源</p>
+            <select class="form-control input-lg m-b-10" name="client_from">
+                <option>新闻</option>
+                <option>网络</option>
+            </select>
+            <p>客户类别</p>
+            <select class="form-control input-lg m-b-10" name="client_type">
+                <option>潜在客户</option>
+                <option>网络</option>
+            </select>
+            <p>销售方式</p>
+            <select class="form-control input-lg m-b-10" name="client_market">
+                <option>零售</option>
+                <option>网络</option>
             </select>
 
-
         </div>
-
+        <div class="block-area" id="textarea">
+            <h3 class="block-title">企业概括</h3>
+            <p>行业属性</p>
+            <select class="form-control input-lg m-b-10" name="work_type">
+                <option>建筑行业</option>
+                <option>网络</option>
+            </select>
+            <p>企业性质</p>
+            <select class="form-control input-lg m-b-10" name="work_nature">
+                <option>国家事业单位</option>
+                <option>网络</option>
+            </select>
+            <textarea name="work_desc" class="form-control overflow" rows="3" placeholder="企业描述"></textarea>
+            <textarea name="remark" class="form-control overflow" rows="3" placeholder="备注"></textarea>
+            <input type="submit" value="提交">
+            </form>
+            <p></p>
+        </div>
         <hr class="whiter m-t-20" />
 
         <!-- Checkbox + Radio-->
