@@ -18,4 +18,13 @@ Route::get('/', function () {
 Route::get('login','UserController@login');
 //首页
 Route::get('index','UserController@index');
+//信息管理系统
+Route::get('user','UserController@user');
+//展示
+Route::get('table','UserController@table');
+
+
+
+
+
 
