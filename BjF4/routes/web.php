@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//登录
+Route::get('login','UserController@login');
+//首页
+Route::get('index','UserController@index');
+
