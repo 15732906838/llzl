@@ -22,6 +22,9 @@ Route::get('index','UserController@index');
 Route::get('user','UserController@user');
 //展示
 Route::get('table','UserController@table');
+//客户服务信息添加
+Route::get('customeradd','CustomerController@index');
+
 
 
 
