@@ -20,8 +20,14 @@ Route::get('login','UserController@login');
 Route::get('index','UserController@index');
 //信息管理系统
 Route::get('user','UserController@user');
+//添加执行
+Route::post('useradddo','UserController@useradddo');
 //展示
 Route::get('table','UserController@table');
+//删除
+Route::post('delete','UserController@delete');
+
+
 
 
 

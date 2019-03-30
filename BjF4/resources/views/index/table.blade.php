@@ -246,67 +246,47 @@
               
                 <!-- Table Striped -->
                 <div class="block-area" id="tableStriped">
-                    <h3 class="block-title">Table Striped</h3>
+                    <h3 class="block-title">联系人信息管理</h3>
                     <div class="table-responsive overflow">
                         <table class="tile table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>No.</th>
-                                    <th>服务类型</th>
-                                    <th>Last Name</th>
-                                    <th>Username</th>
+                                    <th>排序</th>
+                                    <th>客户名称</th>
+                                    <th>客户爱好</th>
+                                    <th>客户性别</th>
+                                    <th>客户电话</th>
+                                    <th>客户所在企业</th>
+                                    <th>职位</th>
+                                    <th>操作</th>
                                 </tr>
                             </thead>
                             <tbody>
+                            @foreach($res as $k=>$v)
                                 <tr>
-                                    <td>1</td>
-                                    <td>服务类型 </td>
-                                    <td>Makinton </td>
-                                    <td>@makinton</td>
+                                    <td>{{$v->id}}</td>
+                                    <td>{{$v->name}} </td>
+                                    <td>{{$v->hobby}} </td>
+                                    <td>
+                                        @if($v->sex==1)
+                                            男
+                                            @else
+                                            女
+                                        @endif
+                                    </td>
+                                    <td>{{$v->hmobile_phone}}</td>
+                                    <td>{{$v->company}}</td>
+                                    <td>{{$v->contact_title}}</td>
+                                    <td>
+                                        <a href="" >编辑</a>
+                                        &nbsp;&nbsp;&nbsp;
+                                        <a href="javascript:;" zhi="{{$v->id}}" class="del">删除</a>
+                                    </td>
                                 </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>服务类型</td>
-                                    <td>Hollaway</td>
-                                    <td>@hollway</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>服务类型</td>
-                                    <td>Parnel</td>
-                                    <td>@wayne123</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>T服务类型</td>
-                                    <td>05/04/2012</td>
-                                    <td>Call in to confirm</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>服务类型</td>
-                                    <td>06/04/2012</td>
-                                    <td>Pending</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>T服务类型y</td>
-                                    <td>07/04/2012</td>
-                                    <td>Call in to confirm</td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>T服务类型</td>
-                                    <td>08/04/2012</td>
-                                    <td>Call in to confirm</td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>T服务类型y</td>
-                                    <td>09/04/2012</td>
-                                    <td>Call in to confirm</td>
-                                </tr>
+
+
                             </tbody>
+                            @endforeach
                         </table>
                     </div>
                 </div>
@@ -331,6 +311,32 @@
         
         <!-- All JS functions -->
         <script src="js/functions.js"></script>
+        <script src="/layui/layui.js"></script>
+
     </body>
 </html>
+<script>
+    $(function(){
+        layui.use('layer', function () {
+            var layer=layui.layer;
+           $('.del').click(function(){
+               var id=$(this).attr('zhi');
+               $.post(
+                   "delete",
+                   {id:id},
+                   function(res) {
+                        if(res==1){
+                            history.go(0);
+                            alert('删除成功')
+                        }else{
+                            alert('删除成功')
+                        }
+                   }
+               )
+           })
+        })
+    })
+</script>
+
+
 
