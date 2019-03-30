@@ -13,14 +13,14 @@
     <title>Super Admin Responsive Template</title>
 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/form.css" rel="stylesheet">
-    <link href="css/calendar.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/icons.css" rel="stylesheet">
-    <link href="css/generics.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/form.css" rel="stylesheet">
+    <link href="/css/calendar.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/icons.css" rel="stylesheet">
+    <link href="/css/generics.css" rel="stylesheet">
 </head>
 <body id="skin-blur-violate">
 <header id="header" class="media">
@@ -73,7 +73,7 @@
             <!-- Profile Menu -->
             <div class="text-center s-widget m-b-25 dropdown" id="profile-menu">
                 <a href="" data-toggle="dropdown">
-                    <img class="profile-pic animated" src="img/profile-pic.jpg" alt="">
+                    <img class="profile-pic animated" src="/img/profile-pic.jpg" alt="">
                 </a>
                 <ul class="dropdown-menu profile-menu">
                     <li><a href="">My Profile</a> <i class="icon left">&#61903;</i><i class="icon right">&#61815;</i></li>
@@ -159,9 +159,25 @@
                     <span class="menu-item">Dashboard</span>
                 </a>
             </li>
-
-
+            <li>
+                <a class="sa-side-typography" href="typography.html">
+                    <span class="menu-item">Typography</span>
+                </a>
+            </li>
+            <li>
+                <a class="sa-side-widget" href="content-widgets.html">
+                    <span class="menu-item">Widgets</span>
+                </a>
+            </li>
+            <li>
+                <a class="sa-side-table" href="tables.html">
+                    <span class="menu-item">Tables</span>
+                </a>
+            </li>
             <li class="dropdown active">
+                <a class="sa-side-form" href="">
+                    <span class="menu-item">Form</span>
+                </a>
                 <ul class="list-unstyled menu-item">
                     <li><a class="active" href="form-elements.html">Basic Form Elements</a></li>
                     <li><a href="form-components.html">Form Components</a></li>
@@ -183,7 +199,21 @@
                     <li><a href="other-components.html">Others</a></li>
                 </ul>
             </li>
-
+            <li>
+                <a class="sa-side-chart" href="charts.html">
+                    <span class="menu-item">Charts</span>
+                </a>
+            </li>
+            <li>
+                <a class="sa-side-folder" href="file-manager.html">
+                    <span class="menu-item">File Manager</span>
+                </a>
+            </li>
+            <li>
+                <a class="sa-side-calendar" href="calendar.html">
+                    <span class="menu-item">Calendar</span>
+                </a>
+            </li>
             <li class="dropdown">
                 <a class="sa-side-page" href="">
                     <span class="menu-item">Pages</span>
@@ -214,7 +244,7 @@
                 <div class="overflow" style="height: 254px">
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/1.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/1.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Nadin Jackson - 2 Hours ago</small><br>
@@ -223,7 +253,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/2.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/2.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">David Villa - 5 Hours ago</small><br>
@@ -232,7 +262,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/3.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/3.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Harris worgon - On 15/12/2013</small><br>
@@ -241,7 +271,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/4.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/4.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Mitch Bradberry - On 14/12/2013</small><br>
@@ -250,7 +280,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/1.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/1.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Nadin Jackson - On 15/12/2013</small><br>
@@ -259,7 +289,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/2.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/2.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">David Villa - On 16/12/2013</small><br>
@@ -268,7 +298,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/3.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/3.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Harris worgon - On 17/12/2013</small><br>
@@ -277,7 +307,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/4.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/4.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Mitch Bradberry - On 18/12/2013</small><br>
@@ -286,7 +316,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/5.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/5.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Wendy Mitchell - On 19/12/2013</small><br>
@@ -310,7 +340,7 @@
                 <div class="overflow" style="height: 254px">
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/1.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/1.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Nadin Jackson - 2 Hours ago</small><br>
@@ -319,7 +349,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/2.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/2.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">David Villa - 5 Hours ago</small><br>
@@ -328,7 +358,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/3.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/3.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Harris worgon - On 15/12/2013</small><br>
@@ -337,7 +367,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/4.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/4.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Mitch Bradberry - On 14/12/2013</small><br>
@@ -346,7 +376,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/1.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/1.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">Nadin Jackson - On 15/12/2013</small><br>
@@ -355,7 +385,7 @@
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <img width="40" src="img/profile-pics/2.jpg" alt="">
+                            <img width="40" src="/img/profile-pics/2.jpg" alt="">
                         </div>
                         <div class="media-body">
                             <small class="text-muted">David Villa - On 16/12/2013</small><br>
@@ -377,61 +407,188 @@
         </ol>
 
         <h4 class="page-title">BASIC FORM ELEMENTS</h4>
-        <form action="useradddo" method="post">
+
         <!-- Text Input -->
         <div class="block-area" id="text-input">
-            <h3>新建联系人</h3>         <button>提价</button>
-            <input class="form-control input-lg m-b-10" type="text" name="company" placeholder="客户单位">
-            <input class="form-control input-lg m-b-10" type="text" name="contact_title" placeholder="联系人职位">
-            <input class="form-control input-lg m-b-10" type="text" name="name" placeholder="姓名">
-            <input class="form-control input-lg m-b-10" type="radio" name="sex" placeholder="性别" value="1">男
-            <input class="form-control input-lg m-b-10" type="radio" name="sex" placeholder="性别" value="2">女
-            <input class="form-control input-lg m-b-10" type="text" name="birthday" placeholder="生日">
-            <input class="form-control input-lg m-b-10" type="text" name="hobby" placeholder="爱好">
-            <input class="form-control input-lg m-b-10" type="text" name="contact" placeholder="联系方式">
-            <input class="form-control input-lg m-b-10" type="text" name="family" placeholder="家庭邮编">
-            <input class="form-control input-lg m-b-10" type="text" name="work_phone" placeholder="工作电话">
-            <input class="form-control input-lg m-b-10" type="text" name="hmobile_phone" placeholder="手机">
-            <input class="form-control input-lg m-b-10" type="text" name="email" placeholder="邮箱">
-            <input class="form-control input-lg m-b-10" type="text" name="qq_phone" placeholder="qq号码">
-            <input class="form-control input-lg m-b-10" type="text" name="remarks" placeholder="备注">
+            <h3 class="block-title">Text Input</h3>
+
+            <p>基本信息</p>
+            <form action="/client/clientadddo" method="post">
+
+            <input class="form-control input-lg m-b-10" type="text" name="user_id" value="刘铭昊" placeholder="销售员">
+            <input class="form-control input-lg m-b-10" type="text" name="client_name" placeholder="客户名称">
+            <input class="form-control input-lg m-b-10" type="text" name="client_num" placeholder="客户编码">
+            <input class="form-control input-lg m-b-10" type="text" name="client_tel" placeholder="电话">
+            <input class="form-control input-lg m-b-10" type="text" name="client_url" placeholder="网址">
+            <input class="form-control input-lg m-b-10" type="text" name="client_email" placeholder="电子邮件">
+            <input class="form-control input-lg m-b-10" type="text" name="client_coding" placeholder="邮政编码">
+            <select class="form-control input-lg m-b-10" name="client_area">
+                <option>华东</option>
+                <option>华南</option>
+                <option>东北</option>
+            </select>
+            <input class="form-control input-lg m-b-10" type="text" name="client_desc" placeholder="详细地址">
+            <p></p>
+            <p>Input focus</p>
+            <p></p>
+            <p>Disabled</p>
         </div>
 
+        <hr class="whiter m-t-20" />
+
+        <!-- Textarea -->
+        <div class="block-area" id="textarea">
+            <h3 class="block-title">客户类型</h3>
+            <p>客户来源</p>
+            <select class="form-control input-lg m-b-10" name="client_from">
+                <option>新闻</option>
+                <option>网络</option>
+            </select>
+            <p>客户类别</p>
+            <select class="form-control input-lg m-b-10" name="client_type">
+                <option>潜在客户</option>
+                <option>网络</option>
+            </select>
+            <p>销售方式</p>
+            <select class="form-control input-lg m-b-10" name="client_market">
+                <option>零售</option>
+                <option>网络</option>
+            </select>
+
+        </div>
+        <div class="block-area" id="textarea">
+            <h3 class="block-title">企业概括</h3>
+            <p>行业属性</p>
+            <select class="form-control input-lg m-b-10" name="work_type">
+                <option>建筑行业</option>
+                <option>网络</option>
+            </select>
+            <p>企业性质</p>
+            <select class="form-control input-lg m-b-10" name="work_nature">
+                <option>国家事业单位</option>
+                <option>网络</option>
+            </select>
+            <textarea name="work_desc" class="form-control overflow" rows="3" placeholder="企业描述"></textarea>
+            <textarea name="remark" class="form-control overflow" rows="3" placeholder="备注"></textarea>
+            <input type="submit" value="提交">
+            </form>
+            <p></p>
+        </div>
+        <hr class="whiter m-t-20" />
+
+        <!-- Checkbox + Radio-->
+        <!-- <div class="block-area" id="check">
+            <h3 class="block-title">Checkbox + Radio</h3>
+            <p>Default Checkbox</p>
+
+            <div class="checkbox m-b-5">
+                <label>
+                    <input type="checkbox" checked>
+                    This is an awesome sample Checkbox
+                </label>
+            </div>
+
+            <div class="clearfix"></div>
+
+
+            <div class="clearfix"></div>
+
+            <div class="checkbox m-b-5">
+                <label>
+                    <input type="checkbox">
+                    One more awesome sample Checkbox
+                </label>
+            </div>
+
+            <br/>
+
+            <p>Inline Checkboxes</p>
+            <label class="checkbox-inline">
+                <input type="checkbox">
+                1
+            </label>
+
+            <label class="checkbox-inline">
+                <input type="checkbox">
+                2
+            </label>
+
+            <label class="checkbox-inline">
+                <input type="checkbox">
+                3
+            </label>
+
+            <p class="m-t-20">Radio</p>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radio">
+                    Option one is this and that&mdash;be sure to include why it's great
+                </label>
+            </div>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radio">
+                    Option one is this and that&mdash;be sure to include why it's great
+                </label>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <p class="m-t-20">Disabled</p>
+            <div class="radio">
+                <label>
+                    <input type="radio" checked disabled>
+                    This Radio is checked and disabled
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" disabled>
+                    This Radio is not checked and disabled
+                </label>
+            </div>
+
+            <div class="checkbox m-t-10 m-b-5">
+                <label>
+                    <input type="checkbox" checked disabled>
+                    This is an awesome sample Checkbox checked and disabled
+                </label>
+            </div>
+
+            <div class="checkbox">
+                <label class="m-t-10">
+                    <input type="checkbox" disabled>
+                    This is too disabled
+                </label>
+            </div>
+
+            <br/><br/><br/>
+        </div>   -->
     </section>
-    </form>
 </section>
 
 <!-- Javascript Libraries -->
 <!-- jQuery -->
-<script src="js/jquery.min.js"></script> <!-- jQuery Library -->
+<script src="/js/jquery.min.js"></script> <!-- jQuery Library -->
 
 <!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 
 <!--  Form Related -->
-<script src="js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
-<script src="js/autosize.min.js"></script> <!-- Textarea autosize -->
+<script src="/js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+<script src="/js/autosize.min.js"></script> <!-- Textarea autosize -->
 
 <!-- UX -->
-<script src="js/scroll.min.js"></script> <!-- Custom Scrollbar -->
+<script src="/js/scroll.min.js"></script> <!-- Custom Scrollbar -->
 
 <!-- Other -->
-<script src="js/calendar.min.js"></script> <!-- Calendar -->
-<script src="js/feeds.min.js"></script> <!-- News Feeds -->
+<script src="/js/calendar.min.js"></script> <!-- Calendar -->
+<script src="/js/feeds.min.js"></script> <!-- News Feeds -->
 
 
 <!-- All JS functions -->
-<script src="layui/layui.js"></script>
-<script src="js/functions.js"></script>
+<script src="/js/functions.js"></script>
 </body>
 </html>
-<script>
-    $(function(){
-        layui.use('layer', function () {
-            var layer=layui.layer;
-
-
-        })
-    })
-</script>
 

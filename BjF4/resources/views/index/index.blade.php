@@ -232,6 +232,15 @@
                             <li><a href="table">服务信息查询</a></li>
                         </ul>
                     </li>
+                    <li class="dropdown">
+                        <a class="sa-side-page" href="">
+                            <span class="menu-item">客户信息管理</span>
+                        </a>
+                        <ul class="list-unstyled menu-item">
+                            <li><a href="/client/clientadd">基本信息添加</a></li>
+                            <li><a href="/client/clientlist">客户信息管理</a></li>
+                        </ul>
+                    </li>
                 </ul>
 
             </aside>
